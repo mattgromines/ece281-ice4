@@ -95,7 +95,7 @@ begin
     stoplight : stoplight_fsm   
         port map (
             i_C => sw(0),
-            i_reset => btnC,
+            i_reset => btnL,
             i_clk => w_clk,
             o_R => JA(0),
             o_Y => JA(1),
